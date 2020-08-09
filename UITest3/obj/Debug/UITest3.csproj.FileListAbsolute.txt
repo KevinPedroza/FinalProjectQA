@@ -1,0 +1,9 @@
+C:\Users\kevin\source\repos\UITest3\UITest3\bin\Debug\UITest3.dll
+C:\Users\kevin\source\repos\UITest3\UITest3\bin\Debug\UITest3.pdb
+C:\Users\kevin\source\repos\UITest3\UITest3\bin\Debug\nunit.framework.dll
+C:\Users\kevin\source\repos\UITest3\UITest3\bin\Debug\Xamarin.UITest.dll
+C:\Users\kevin\source\repos\UITest3\UITest3\obj\Debug\UITest3.csprojAssemblyReference.cache
+C:\Users\kevin\source\repos\UITest3\UITest3\obj\Debug\UITest3.csproj.CoreCompileInputs.cache
+C:\Users\kevin\source\repos\UITest3\UITest3\obj\Debug\UITest3.csproj.CopyComplete
+C:\Users\kevin\source\repos\UITest3\UITest3\obj\Debug\UITest3.dll
+C:\Users\kevin\source\repos\UITest3\UITest3\obj\Debug\UITest3.pdb
