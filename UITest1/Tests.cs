@@ -22,6 +22,7 @@ namespace Tests
             app = AppInitializer.StartApp(platform);
         }
 
+        //Login
         [Test]
         public void loginValidCredentials()
         {
@@ -48,6 +49,78 @@ namespace Tests
             LoginCases login = new LoginCases(app);
 
             Boolean result = login.onlyInvalidPassword();
+
+            Assert.IsTrue(result);
+        }
+
+
+        //Register 
+        [Test]
+        public void registerEmptySpace()
+        {
+            RegisterCases register = new RegisterCases(this.app);
+
+            Boolean result = register.addEmptySpace();
+
+            Assert.IsTrue(result);
+        }
+
+        [Test]
+        public void registerSymbols()
+        {
+            RegisterCases register = new RegisterCases(this.app);
+
+            Boolean result = register.addSymbols();
+
+            Assert.IsTrue(result);
+        }
+        [Test]
+        public void registersSuccess()
+        {
+            RegisterCases register = new RegisterCases(this.app);
+
+            Boolean result = register.addNormalsWords();
+
+            Assert.IsTrue(result);
+        }
+        
+        //Update
+        [Test]
+        public void updateWriting()
+        {
+            Update update = new Update(this.app);
+
+            Boolean result = update.updateWriting();
+
+            Assert.IsTrue(result);
+        }
+
+        [Test]
+        public void testUpdateSymbols()
+        {
+            Update update = new Update(this.app);
+
+            Boolean result = update.updateSymbols();
+
+            Assert.IsTrue(result);
+        }
+        [Test]
+        public void testUpdateEmpty()
+        {
+            Update update = new Update(this.app);
+
+            Boolean result = update.updateEmpty();
+
+            Assert.IsTrue(result);
+        }
+
+        //Delete 
+        [Test]
+        public void testDeleteCard()
+        {
+            TestDelete delete = new TestDelete(this.app);
+
+            Boolean result = delete.deleteCard();
 
             Assert.IsTrue(result);
         }
