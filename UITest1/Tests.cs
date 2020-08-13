@@ -114,7 +114,7 @@ namespace Tests
             Assert.IsTrue(result);
         }
 
-        //Delete 
+        //Delete
         [Test]
         public void testDeleteCard()
         {
