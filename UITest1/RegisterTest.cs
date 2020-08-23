@@ -22,6 +22,7 @@ namespace Tests
 
         public Boolean addEmptySpace()
         {
+            Console.WriteLine();
             //  Sesion
             Query loginButton = c => c.Marked("log_in_button");
             Query userText = c => c.Marked("user");

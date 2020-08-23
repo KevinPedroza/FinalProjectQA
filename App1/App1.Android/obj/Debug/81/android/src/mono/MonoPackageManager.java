@@ -109,7 +109,6 @@ class MonoPackageManager_Resources {
 		"App1.Android.dll",
 		"App1.dll",
 		"FormsViewGroup.dll",
-		"nunit.framework.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

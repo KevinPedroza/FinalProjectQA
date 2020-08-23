@@ -86,7 +86,7 @@ namespace Tests
         
         //Update
         [Test]
-        public void updateWriting()
+        public void testUpdateWriting()
         {
             Update update = new Update(this.app);
 
@@ -116,7 +116,7 @@ namespace Tests
 
         //Delete
         [Test]
-        public void testDeleteCard()
+        public void z_TestDeleteCard()
         {
             TestDelete delete = new TestDelete(this.app);
 

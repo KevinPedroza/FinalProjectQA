@@ -142,7 +142,6 @@ C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\obj\Debug\81\R.cs.f
 C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\obj\Debug\81\R.txt
 C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\obj\Debug\81\uploadflags.txt
 C:\Users\kevin\source\repos\FinalProjectQA\App1\App1\bin\Debug\netstandard2.0\App1.dll
-C:\Users\kevin\source\repos\FinalProjectQA\App1\App1\bin\Debug\netstandard2.0\App1.dll
 C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\bin\Debug\Mono.Android.pdb
 C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\bin\Debug\mscorlib.pdb
@@ -187,6 +186,4 @@ C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\obj\Debug\81\linksr
 C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\obj\Debug\81\linksrc\Mono.Security.pdb
 C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\bin\Debug\App1.dll.mdb
-C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\bin\Debug\nunit.framework.dll.mdb
 C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\obj\Debug\81\linksrc\App1.dll.mdb
-C:\Users\kevin\source\repos\FinalProjectQA\App1\App1.Android\obj\Debug\81\linksrc\nunit.framework.dll.mdb

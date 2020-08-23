@@ -40,9 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base.cs" />
-    <Compile Include="TestLogin.cs" />
+    <Compile Include="DeleteTest.cs" />
+    <Compile Include="RegisterTest.cs" />
+    <Compile Include="LoginTest.cs" />
     <Compile Include="Tests.cs" />
     <Compile Include="AppInitializer.cs" />
+    <Compile Include="UpdateTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
