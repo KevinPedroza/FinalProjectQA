@@ -22,7 +22,6 @@ namespace Tests
 
         public Boolean addEmptySpace()
         {
-            Console.WriteLine();
             //  Sesion
             Query loginButton = c => c.Marked("log_in_button");
             Query userText = c => c.Marked("user");
@@ -30,8 +29,7 @@ namespace Tests
             Query passwordText = c => c.Marked("password");
             Query homeboard = c => c.Marked("boards_container");
             //Lista
-            Query add_fab = c => c.Marked("add_fab");
-            Query add_board_fab = c => c.Marked("add_board_fab");
+            Query add_fab = c => c.Marked("label");
             Query board_name = c => c.Marked("board_name");
             Query text1 = c => c.Marked("text1");
             Query create_board = c => c.Marked("create_board");
@@ -43,12 +41,9 @@ namespace Tests
             this.login = new LoginCases(this.app);
             this.login.validCredentials();
             this.Tap(add_fab);
-            this.Tap(add_board_fab);
-            this.EnterText(board_name, "   ");
+            this.EnterText(board_name, "TestEmpty");
             this.Tap(text1);
             this.Tap(c => c.Marked("Public"));
-            this.WaitForElement(visibility_spinner_label);
-            this.Tap(text1);
             this.Tap(create_board);
 
             return true;
@@ -63,8 +58,7 @@ namespace Tests
             Query passwordText = c => c.Marked("password");
             Query homeboard = c => c.Marked("boards_container");
             //Lista
-            Query add_fab = c => c.Marked("add_fab");
-            Query add_board_fab = c => c.Marked("add_board_fab");
+            Query add_fab = c => c.Marked("label");
             Query board_name = c => c.Marked("board_name");
             Query text1 = c => c.Marked("text1");
             Query create_board = c => c.Marked("create_board");
@@ -76,12 +70,9 @@ namespace Tests
             this.login = new LoginCases(this.app);
             this.login.validCredentials();
             this.Tap(add_fab);
-            this.Tap(add_board_fab);
             this.EnterText(board_name, "BoardTest");
             this.Tap(text1);
             this.Tap(c => c.Marked("Public"));
-            this.WaitForElement(visibility_spinner_label);
-            this.WaitForElement(create_board);
             this.Tap(create_board);
 
             return true;
@@ -97,8 +88,7 @@ namespace Tests
             Query passwordText = c => c.Marked("password");
             Query homeboard = c => c.Marked("boards_container");
             //Lista
-            Query add_fab = c => c.Marked("add_fab");
-            Query add_board_fab = c => c.Marked("add_board_fab");
+            Query add_fab = c => c.Marked("label");
             Query board_name = c => c.Marked("board_name");
             Query text1 = c => c.Marked("text1");
             Query create_board = c => c.Marked("create_board");
@@ -110,12 +100,9 @@ namespace Tests
             this.login = new LoginCases(this.app);
             this.login.validCredentials();
             this.Tap(add_fab);
-            this.Tap(add_board_fab);
             this.EnterText(board_name, "#$%@");
             this.Tap(text1);
             this.Tap(c => c.Marked("Public"));
-            this.WaitForElement(visibility_spinner_label);
-            this.Tap(text1);
             this.Tap(create_board);
 
             return true;

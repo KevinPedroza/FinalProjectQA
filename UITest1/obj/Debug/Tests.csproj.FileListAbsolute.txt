@@ -27,3 +27,4 @@ C:\Users\kevin\source\repos\FinalProjectQA\UITest1\obj\Debug\Tests.csproj.CopyCo
 C:\Users\kevin\source\repos\FinalProjectQA\UITest1\obj\Debug\UITest1.dll
 C:\Users\kevin\source\repos\FinalProjectQA\UITest1\obj\Debug\UITest1.pdb
 C:\Users\kevin\source\repos\FinalProjectQA\UITest1\bin\Debug\nunit.framework.pdb
+C:\Users\kevin\source\repos\FinalProjectQA\UITest1\obj\Debug\Tests.csprojAssemblyReference.cache
